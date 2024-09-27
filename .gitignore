@@ -1,0 +1,56 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[xX][86]/
+[xX][6-9]/
+[Aa][Rr][Mm]/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+!.nuget/packages/  # keep .nuget folder for .NET CLI
+
+# Code coverage
+*.coverage
+*.coverlet.*
+*.xml
+
+# Azure Web Apps
+*.deploy.cmd
+*.deploy
+*.log
+
+# Other files to ignore
+*.pdb
+*.mdb
+*.scc
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.jfm*.h
+*.jfm*.csproj
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# User-specific files
+*.swp
+*.swo
