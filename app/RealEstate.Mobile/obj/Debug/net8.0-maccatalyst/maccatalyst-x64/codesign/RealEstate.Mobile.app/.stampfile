@@ -1,1 +1,0 @@
--v --force --timestamp=none --sign - --entitlements /Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.Mobile/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Entitlements.xcent /Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.Mobile/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/RealEstate.Mobile.app
