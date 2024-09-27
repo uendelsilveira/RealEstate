@@ -1,0 +1,101 @@
+RealEstate/
+│
+├── app/
+│   ├── RealEstate.Web/                            # Aplicação Web
+│   │   ├── Controllers/                            # Controladores MVC
+│   │   ├── Views/                                  # Views Razor
+│   │   ├── wwwroot/                                # Arquivos estáticos (CSS, JS, imagens)
+│   │   ├── Models/                                 # Modelos de dados
+│   │   ├── ViewModels/                             # ViewModels
+│   │   ├── Services/                               # Serviços para lógica de negócio
+│   │   ├── RealEstate.Web.csproj                  # Projeto da aplicação Web
+│   │   └── Startup.cs                              # Configuração da aplicação
+│   │
+│   ├── RealEstate.Mobile/                          # Aplicação Mobile
+│   │   ├── Views/                                  # Views da aplicação mobile
+│   │   ├── ViewModels/                             # ViewModels para a mobile
+│   │   ├── Services/                               # Serviços para lógica de negócio
+│   │   ├── RealEstate.Mobile.csproj                # Projeto da aplicação Mobile
+│   │   └── App.xaml                                 # Configuração do App
+│   │
+│   ├── RealEstate.API/                             # API RESTful
+│   │   ├── Controllers/                            # Controladores da API
+│   │   ├── DTOs/                                  # Data Transfer Objects
+│   │   ├── Services/                               # Serviços da API
+│   │   ├── RealEstate.API.csproj                   # Projeto da API
+│   │   └── Startup.cs                              # Configuração da API
+│   │
+|   ├── RealEstate.Domain/
+|   |   ├── Entities/                          # Entidades do domínio
+|   |   │   ├── Property.cs
+|   |   │   ├── Customer.cs
+|   |   │   └── Owner.cs
+|   |   ├── ValueObjects/                      # Objetos de Valor do domínio
+|   |   │   ├── Address.cs
+|   |   │   ├── GeoCoordinate.cs
+|   |   │   └── Price.cs
+|   |   ├── Interfaces/                        # Interfaces dos repositórios
+|   |   │   └── IPropertyRepository.cs
+|   |   ├── Services/                          # Serviços de domínio
+|   |   │   └── PropertyService.cs
+|   |   ├── Events/                            # Eventos de domínio
+|   |   │   └── PropertyUpdatedEvent.cs
+|   |   └── RealEstate.Domain.csproj           # Projeto da camada de Domínio
+│   │
+│   ├── RealEstate.Application/                     # Camada de Aplicação
+│   │   ├── Interfaces/                             # Interfaces dos serviços de aplicação
+│   │   ├── Services/                               # Serviços de aplicação
+│   │   ├── Commands/                               # Comandos (CQRS)
+│   │   ├── Queries/                                # Consultas (CQRS)
+│   │   ├── RealEstate.Application.csproj           # Projeto da camada de Aplicação
+│   │
+│   ├── RealEstate.Infrastructure/                  # Camada de Infraestrutura
+│   │   ├── Migrations/                             # Pasta para migrations
+│   │   ├── ApplicationDbContext.cs                 # Contexto de Banco de Dados
+│   │   ├── Repositories/                           # Implementações de repositórios
+│   │   ├── Data/                                   # Classes para configuração de dados
+│   │   ├── RealEstate.Infrastructure.csproj        # Projeto da camada de Infraestrutura
+│   │
+│   └── RealEstate.Shared/                          # Componentes compartilhados
+│       ├── Enums/                                  # Enumerações compartilhadas
+│       ├── Exceptions/                             # Exceções personalizadas
+│       ├── Interfaces/                             # Interfaces compartilhadas
+│       ├── RealEstate.Shared.csproj                # Projeto de componentes compartilhados
+│
+├── tests/
+│   ├── RealEstate.Web.Tests/                       # Testes da aplicação Web
+│   │   ├── Controllers/                            # Testes para controladores
+│   │   ├── Services/                               # Testes para serviços
+│   │   └── RealEstate.Web.Tests.csproj             # Projeto de testes da aplicação Web
+│   │
+│   ├── RealEstate.Mobile.Tests/                    # Testes da aplicação Mobile
+│   │   ├── Views/                                  # Testes para Views
+│   │   └── RealEstate.Mobile.Tests.csproj          # Projeto de testes da aplicação Mobile
+│   │
+│   ├── RealEstate.API.Tests/                       # Testes da API
+│   │   ├── Controllers/                            # Testes para controladores da API
+│   │   ├── Services/                               # Testes para serviços da API
+│   │   └── RealEstate.API.Tests.csproj             # Projeto de testes da API
+│   │
+│   ├── RealEstate.Domain.Tests/                    # Testes da camada de Domínio
+│   │   ├── Entities/                               # Testes para entidades
+│   │   ├── ValueObjects/                           # Testes para objetos de valor
+│   │   └── RealEstate.Domain.Tests.csproj          # Projeto de testes da camada de Domínio
+│   │
+│   ├── RealEstate.Application.Tests/                # Testes da camada de Aplicação
+│   │   ├── Commands/                               # Testes para comandos
+│   │   ├── Queries/                                # Testes para consultas
+│   │   └── RealEstate.Application.Tests.csproj      # Projeto de testes da camada de Aplicação
+│   │
+│   └── RealEstate.Infrastructure.Tests/            # Testes da camada de Infraestrutura
+│       ├── Repositories/                           # Testes para repositórios
+│       └── RealEstate.Infrastructure.Tests.csproj   # Projeto de testes da camada de Infraestrutura
+│
+├── docs/                                          # Documentação do projeto
+│   ├── Architecture.md                             # Arquitetura do sistema
+│   ├── API.md                                     # Documentação da API
+│   ├── GettingStarted.md                           # Guia de início rápido
+│   └── UserGuide.md                               # Manual do usuário
+│
+├── RealEstate.sln                                  # Solução do projeto
+└── README.md                                       # Documentação principal
