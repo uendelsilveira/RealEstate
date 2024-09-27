@@ -1106,3 +1106,4 @@
 /Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.Mobile/obj/Debug/net8.0-android/app_shared_libraries/armeabi-v7a/libxamarin-app.so
 /Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.Mobile/obj/Debug/net8.0-android/app_shared_libraries/arm64-v8a/libxamarin-app.so
 /Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.Mobile/obj/Debug/net8.0-android/app_shared_libraries/x86/libxamarin-app.so
+/Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.Mobile/obj/Debug/net8.0-android/RealEstate.Mobile.sourcelink.json

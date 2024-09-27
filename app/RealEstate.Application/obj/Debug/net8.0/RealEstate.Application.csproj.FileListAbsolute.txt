@@ -13,3 +13,4 @@
 /Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.Application/obj/Debug/net8.0/refint/RealEstate.Application.dll
 /Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.Application/obj/Debug/net8.0/RealEstate.Application.pdb
 /Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.Application/obj/Debug/net8.0/ref/RealEstate.Application.dll
+/Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.Application/obj/Debug/net8.0/RealEstate.Application.sourcelink.json

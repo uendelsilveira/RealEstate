@@ -31,3 +31,4 @@
 /Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.API/obj/Debug/net8.0/RealEstate.API.pdb
 /Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.API/obj/Debug/net8.0/RealEstate.API.genruntimeconfig.cache
 /Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.API/obj/Debug/net8.0/ref/RealEstate.API.dll
+/Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.API/obj/Debug/net8.0/RealEstate.API.sourcelink.json

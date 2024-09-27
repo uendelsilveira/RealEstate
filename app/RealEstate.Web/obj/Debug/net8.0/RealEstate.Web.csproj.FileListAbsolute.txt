@@ -36,3 +36,4 @@
 /Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.Web/bin/Debug/net8.0/RealEstate.Domain.pdb
 /Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.Web/obj/Debug/net8.0/RealEstate.Web.csproj.AssemblyReference.cache
 /Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.Web/obj/Debug/net8.0/RealEsta.679DC2F5.Up2Date
+/Users/uendelsilveira/my_projects/RealEstate/app/RealEstate.Web/obj/Debug/net8.0/RealEstate.Web.sourcelink.json
